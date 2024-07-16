@@ -44,7 +44,7 @@ const map = new Map({
 
 const sites = new VectorLayer({
   source: new VectorSource({
-    url: './data/Mesolithic_Sites.geojson',
+    url: 'data/Mesolithic_Sites.geojson',
     format: new GeoJSON(),
   }),
   style: new Style({
