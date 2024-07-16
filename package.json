@@ -1,0 +1,20 @@
+{
+  "homepage": "https://michealebutler.github.io/WebViewer/",
+  "name": "lu-v.1",
+  "version": "1.0.0",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "ol": "latest",
+    "proj4": "^2.11.0"
+  }
+}
