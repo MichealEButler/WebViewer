@@ -49,7 +49,7 @@ const sites = new VectorLayer({
   }),
   style: new Style({
     image: new Icon({
-      src: './assets/dot-circle.svg',
+      src: 'assets/dot-circle.svg',
       scale: 0.02
     })
   }),
@@ -59,7 +59,7 @@ const sites = new VectorLayer({
 
 const prediction = new VectorLayer({
   source: new VectorSource({
-    url: './data/Prediction_Area.geojson',
+    url: 'data/Prediction_Area.geojson',
     format: new GeoJSON(),
   }),
   visible: true,
