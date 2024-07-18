@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Mesolithic Sites",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::27700" } },
+"features": [
+{ "type": "Feature", "properties": { "site": "Chest of Dee", "easting": 301700, "northing": 788550, "NGR": "NO 0170 8855", "visible": 1, "letter lab": "C.", "map_no": 3 }, "geometry": { "type": "Point", "coordinates": [ 301700.0, 788550.0 ] } },
+{ "type": "Feature", "properties": { "site": "Caochanan Ruadha", "easting": 294400, "northing": 787400, "NGR": "NN 944 874", "visible": 0, "letter lab": null, "map_no": 4 }, "geometry": { "type": "Point", "coordinates": [ 294400.0, 787400.0 ] } },
+{ "type": "Feature", "properties": { "site": "Sgor an Eoin", "easting": 299295, "northing": 791025, "NGR": null, "visible": 0, "letter lab": null, "map_no": 5 }, "geometry": { "type": "Point", "coordinates": [ 299295.0, 791025.0 ] } }
+]
+}
